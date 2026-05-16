@@ -498,7 +498,13 @@ h1 {
     max-width: none;
   }
 }
-
+.portfolio-image {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+}
 @media (max-width: 620px) {
   .nav-cta {
     display: none;
