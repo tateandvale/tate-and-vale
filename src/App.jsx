@@ -236,9 +236,9 @@ export default function App() {
 
           <div className="contact-card">
             <div className="contact-list">
-              <p><span aria-hidden="true">☎</span> (775) 4409779</p>
+              <p><span aria-hidden="true">☎</span> (775)440-9779</p>
               <p><span aria-hidden="true">✉</span> tateandvale@gmail.com</p>
-              <p><span aria-hidden="true">⌖</span> Reno, Nevada</p>
+              <p><span aria-hidden="true">⌖</span> Follow us on Instagram https://www.instagram.com/tateandvale/</p>
             </div>
             <a href="mailto:hello@tateandvale.com" className="button dark full">
               Request a Consultation
