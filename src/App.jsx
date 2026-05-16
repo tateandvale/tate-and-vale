@@ -170,10 +170,10 @@ export default function App() {
                  <img
   src={
     index === 0
-      ? "/src/images/finalaiimagedesigntile.png"
+      ? "/src/images/Anthropology-Green-3001-1007-10.jpg"
       : index === 1
-      ? "/src/images/kitchen1.jpg"
-      : "/src/images/tile1.jpg"
+      ? "/src/images/Anthropology-Green-3001-1007-10.jpg"
+      : "/src/images/Anthropology-Green-3001-1007-10.jpg"
   }
   alt={item}
   className="portfolio-image"
