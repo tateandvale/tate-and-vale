@@ -167,7 +167,17 @@ export default function App() {
             <div className="portfolio-grid">
               {portfolioItems.map((item, index) => (
                 <div key={item} className="portfolio-card">
-                  <div className={`portfolio-art art-${index + 1}`} />
+                 <img
+  src={
+    index === 0
+      ? "/src/images/finalaiimagedesigntile.png"
+      : index === 1
+      ? "/src/images/kitchen1.jpg"
+      : "/src/images/tile1.jpg"
+  }
+  alt={item}
+  className="portfolio-image"
+/>
                   <div className="portfolio-card-footer">
                     <h3>{item}</h3>
                     <ArrowIcon />
