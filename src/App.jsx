@@ -203,10 +203,10 @@ export default function App() {
           <div className="service-area-box">
             <div>
               <p className="section-kicker">Local service area</p>
-              <h2>Serving Reno, Sparks, South Reno, Spanish Springs, and nearby communities.</h2>
+              <h2>Serving Reno, Tahoe and nearby communities.</h2>
             </div>
             <p>
-              Perfect for homeowners who want their tile, kitchen, or bath project to look
+              Perfect for homeowners who want their home project to look
               intentional—not builder basic.
             </p>
           </div>
@@ -218,16 +218,16 @@ export default function App() {
           <div>
             <h2>Ready to design your remodel?</h2>
             <p>
-              Tell us about your tile, bathroom, backsplash, or kitchen project and we’ll help you
-              create a tile-forward design direction that feels elevated, intentional, and realistic
+              Tell us about your bathroom, backsplash, or kitchen project and we’ll help you
+              create a design direction that feels elevated, intentional, and realistic
               for your home.
             </p>
           </div>
 
           <div className="contact-card">
             <div className="contact-list">
-              <p><span aria-hidden="true">☎</span> (775) 000-0000</p>
-              <p><span aria-hidden="true">✉</span> hello@tateandvale.com</p>
+              <p><span aria-hidden="true">☎</span> (775) 4409779</p>
+              <p><span aria-hidden="true">✉</span> tateandvale@gmail.com</p>
               <p><span aria-hidden="true">⌖</span> Reno, Nevada</p>
             </div>
             <a href="mailto:hello@tateandvale.com" className="button dark full">
