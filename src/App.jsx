@@ -168,13 +168,17 @@ export default function App() {
               {portfolioItems.map((item, index) => (
                 <div key={item} className="portfolio-card">
                  <img
+ <img
   src={
     index === 0
-      ? "/src/images/Anthropology-Green-3001-1007-10.jpg"
+      ? "/projects/bluebathroomai.png"
       : index === 1
-      ? "/src/images/Anthropology-Green-3001-1007-10.jpg"
-      : "/src/images/Anthropology-Green-3001-1007-10.jpg"
+      ? "/projects/marblebbath.png"
+      : "/projects/greenbathroomai.png"
   }
+  alt={item}
+  className="portfolio-image"
+/>
   alt={item}
   className="portfolio-image"
 />
